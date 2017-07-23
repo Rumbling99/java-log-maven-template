@@ -9,10 +9,10 @@ public class Main {
 
     public static void main(String[] args) {
         ClassUsingJCL.execute();
-        ClassUsingJUL.execute();
         ClassUsingSlf4j.execute();
-        ClassUsingLog4j2Api.execute();
-        ClassUsingLog4jImpl.execute();
+        ClassUsingJUL.execute();
+        ClassUsingLog4j.execute();
+        ClassUsingLog4j2.execute();
     }
 
 }
